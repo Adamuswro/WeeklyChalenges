@@ -14,25 +14,25 @@ namespace ConsoleUI
             PaymentProcessor paymentProcessor = new PaymentProcessor();
             for (int i = 0; i <= 10; i++)
             {
+                TransactionModel result = new TransactionModel();
                 try
                 {
-                    var result = paymentProcessor.MakePayment($"Demo{ i }", i);
-                    Console.WriteLine(result.TransactionAmount);
-                }
-                catch (NullReferenceException)
-                {
-                    Console.WriteLine($"Null  for payment number {i}.");
-                    continue;
+                    result = paymentProcessor.MakePayment($"Demo{ i }", i);
                 }
                 catch (Exception ex)
                 {
-                    if (ex is IndexOutOfRangeException || ex is FormatException)
-                    {
-                        Console.WriteLine($"Payment skipped for payment with {i} items.");
-                        continue;
-                    }
+                    Console.WriteLine($"Payment skipped for payment with {i} items.");
+                    continue;
                 }
 
+                if (result == null)
+                {
+                    Console.WriteLine($"Null  for payment number {i}.");
+                }
+                else
+                {
+                    Console.WriteLine(result.TransactionAmount);
+                }
             }
             Console.ReadLine();
         }
