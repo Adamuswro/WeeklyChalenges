@@ -1,0 +1,7 @@
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Przemek\Documents\PROJEKTY PROGRAMOWANIE\DOT_NET\WeeklyChallenges\05ConfigFileChallenge\ConsoleUI\obj\Debug\ConsoleUI.pdb
